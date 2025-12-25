@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+:root {
+    --background: #0a0a0a;
+    --surface: #121212;
+    --card: #1a1a1a;
+    --border: #2a2a2a;
+    --violet-500: #7c3aed;
+    --violet-600: #8b5cf6;
+}
+
+
+body {
+    @apply bg-[#0a0a0a] text-gray-100 font-sans antialiased;
+  margin: 0;
+  min-height: 100vh;
+}
+}
+
+@layer utilities {
+  .glass {
+    @apply backdrop-blur-sm bg-dark-card/50 border border-dark-border/50;
+}
+  
+  .glow-violet {
+    box-shadow: 0 0 20px rgba(124, 58, 237, 0.3);
+  }
+  
+  .glow-violet-sm {
+    box-shadow: 0 0 10px rgba(124, 58, 237, 0.2);
+  }
+}
