@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ATLAS Dashboard
 
 A premium, futuristic dashboard UI for the ATLAS Creator Economy Intelligence Platform.
@@ -166,4 +165,4 @@ This project is built for educational purposes.
 All data is fetched from public APIs.
 
 Built by musashi
->>>>>>> a21f39bdac835d77d4ca52af3cbe9dc449684c45
+
