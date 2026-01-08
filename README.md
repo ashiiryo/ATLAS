@@ -90,5 +90,5 @@ Backend: Serverless / Cron-based execution
 This project is built for educational purposes.
 All data is fetched from public APIs.
 
-Built by musashi
+Built by rix
 
